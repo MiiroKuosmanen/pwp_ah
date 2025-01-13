@@ -6,30 +6,30 @@
 
 1. Users
 - GET /users List users
-- GET /users/<id> Get specific user
+- GET /users/id Get specific user
 - POST /users Create new user
-- PUT /users/<id> Update user details
-- DELETE /users/<id> Delete user
+- PUT /users/id Update user details
+- DELETE /users/id Delete user
 
 2. Items
 - GET /items List items
-- GET /items/<id> Get specific item
+- GET /items/id Get specific item
 - POST /items Add new item
-- PUT /items/<id> Update item details
-- DELETE /items/<id> Delete item
+- PUT /items/id Update item details
+- DELETE /items/id Delete item
 
 3. Auctions
 - GET /auctions List auctions
-- GET /auctions/<id> Get specific auction
+- GET /auctions/id Get specific auction
 - POST /auctions Create new auction
-- DELETE /auctions/<id> Delete auction
+- DELETE /auctions/id Delete auction
 
 4. Bids
 - GET /bids List bids
-- GET /bids/<id> Get specific bid
+- GET /bids/id Get specific bid
 - POST /bids Place new bid
-- PUT /bids/<id> Update bid details
-- DELETE /bids/<id> Delete bid
+- PUT /bids/id Update bid details
+- DELETE /bids/id Delete bid
 
 5. Categories
 - GET /categories List categories
@@ -49,9 +49,9 @@ The client interacts with the RESTful API and utilizes at least 3 resources (Use
 - Add a new user by providing their name, email, and other details
 5. Create a New Item (POST /items)
 - Add a new item under a specific category and associate it with a seller (user)
-6. Update a Category (PUT /categories/<id>)
+6. Update a Category (PUT /categories/id)
 - Update the name or description of a specific category
-7. Delete an Item (DELETE /items/<id>)
+7. Delete an Item (DELETE /items/id)
 - Remove an item from the database
 
 Auxiliary Service idea
