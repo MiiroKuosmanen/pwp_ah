@@ -61,4 +61,4 @@ An independent service that monitors auctions and notifies users about auctions 
 
 Draft code is found inside db folder readme
 
-![Database Draft](./images/db_draft.png)
+![Database Draft](./images/draft_db.png)
